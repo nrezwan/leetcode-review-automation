@@ -51,8 +51,6 @@ leetcode-review-automation/
 ├── 📄 .gitignore # Git ignore rules
 └── 📄 README.md # This file
 
-text
-
 ---
 
 ## 🚀 Quick Start
@@ -145,6 +143,7 @@ text
 Python 3.8+
 GitPython>=3.1.0
 openpyxl>=3.1.0
+
 🤝 Contributing
 Contributions are welcome! Here's how:
 
@@ -158,12 +157,9 @@ Push to the branch (git push origin feature/amazing-feature)
 
 Open a Pull Request
 
-📄 License
-This project is open source and available under the MIT License.
 
 📬 Connect
 GitHub: nrezwan
-
 LeetCode: nrezwan
 
 🌟 Star the Project
