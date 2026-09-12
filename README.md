@@ -36,20 +36,23 @@ Solving LeetCode problems is great, but **retaining what you've learned** is the
 
 ---
 
-## 📂 Project Structure
+## Project Structure
+
+```
 leetcode-review-automation/
-├── 📁 src/ # Core modules
-│ ├── 📄 git_parser.py # Reads problems from Git
-│ ├── 📄 excel_manager.py # Handles Excel file operations
-│ ├── 📄 sync_manager.py # Syncs Git → Excel
-│ └── 📄 review_manager.py # Interactive review sessions
-├── 📁 data/ # Your review data (gitignored)
-│ └── 📄 LeetCodeReviewSheet.xlsx
-├── 📁 LeetCode_Solutions/ # Your LeetCode repository
-├── 📄 main.py # Main entry point
-├── 📄 requirements.txt # Dependencies
-├── 📄 .gitignore # Git ignore rules
-└── 📄 README.md # This file
+├── src/                    # Core modules
+│   ├── git_parser.py       # Reads problems from Git
+│   ├── excel_manager.py    # Handles Excel file operations
+│   ├── sync_manager.py     # Syncs Git → Excel
+│   └── review_manager.py   # Interactive review sessions
+├── data/                   # Your review data (gitignored)
+│   └── LeetCodeReviewSheet.xlsx
+├── LeetCode_Solutions/      # Your LeetCode repository
+├── main.py                 # Main entry point
+├── requirements.txt        # Dependencies
+├── .gitignore               # Git ignore rules
+└── README.md                # This file
+```
 
 ---
 
